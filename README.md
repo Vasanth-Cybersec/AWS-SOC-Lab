@@ -11,8 +11,11 @@ Lab Architecture
 The SOC lab environment consists of the following components:
 
 • Windows Server – Target machine generating security events and system logs
+
 • Ubuntu Server – Attacker / testing system used to simulate malicious activity
+
 • SIEM Platform – Centralized log monitoring and analysis
+
 • AWS EC2 – Cloud infrastructure hosting the lab environment
 
 Current Progress
