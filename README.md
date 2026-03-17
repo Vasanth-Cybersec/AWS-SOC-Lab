@@ -56,8 +56,13 @@ Tools Used
 Repository Structure
 
 architecture → SOC lab architecture diagrams
+
 infrastructure → AWS environment configuration
+
 host-configuration → Windows logging and monitoring setup
+
 siem → SIEM installation and configuration
+
 attack-simulations → simulated attacker activity
+
 screenshots → lab screenshots
