@@ -22,24 +22,35 @@ Current Progress
 Completed
 
 • AWS EC2 instances deployed
+
 • Security group firewall rules configured
+
 • Windows Server auditing policies enabled
+
 • Sysmon installed for enhanced system monitoring
+
 • SIEM dashboard configured for log visibility
 
 In Progress
 
 • Attack simulation experiments
+
 • Detection rule development
+
 • SOC investigation workflows
 
 Tools Used
 
 • AWS EC2
+
 • Windows Server
+
 • Ubuntu Linux
+
 • Sysmon
+
 • Windows Event Viewer
+
 • SIEM Platform
 
 Repository Structure
