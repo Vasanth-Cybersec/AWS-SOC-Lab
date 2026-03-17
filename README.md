@@ -6,9 +6,9 @@ The purpose of this lab is to simulate attacker activity and practice detecting 
 
 The environment includes Windows and Linux systems that generate logs which are forwarded to a centralized monitoring platform for investigation and analysis.
 
-Lab Architecture
+### Lab Architecture
 
-The SOC lab environment consists of the following components:
+**The SOC lab environment consists of the following components:**
 
 • Windows Server – Target machine generating security events and system logs
 
