@@ -10,59 +10,58 @@
 
 **The SOC lab environment consists of the following components:**
 
-• Windows Server – Target machine generating security events and system logs
+* Windows Server – Target machine generating security events and system logs
 
-• Ubuntu Server – Attacker / testing system used to simulate malicious activity
+* Ubuntu Server – Attacker / testing system used to simulate malicious activity
 
-• SIEM Platform – Centralized log monitoring and analysis
+* SIEM Platform – Centralized log monitoring and analysis
 
-• AWS EC2 – Cloud infrastructure hosting the lab environment
+* AWS EC2 – Cloud infrastructure hosting the lab environment
 
-### Current Progress
-Completed
+### Completed
 
-• AWS EC2 instances deployed
+* AWS EC2 instances deployed
 
-• Security group firewall rules configured
+* Security group firewall rules configured
 
-• Windows Server auditing policies enabled
+* Windows Server auditing policies enabled
 
-• Sysmon installed for enhanced system monitoring
+* Sysmon installed for enhanced system monitoring
 
-• SIEM dashboard configured for log visibility
+* SIEM dashboard configured for log visibility
 
 ### In Progress
 
-• Attack simulation experiments
+* Attack simulation experiments
 
-• Detection rule development
+* Detection rule development
 
-• SOC investigation workflows
+* SOC investigation workflows
 
-Tools Used
+### Tools Used
 
-• AWS EC2
+* AWS EC2
 
-• Windows Server
+* Windows Server
 
-• Ubuntu Linux
+* Ubuntu Linux
 
-• Sysmon
+* Sysmon
 
-• Windows Event Viewer
+* Windows Event Viewer
 
-• SIEM Platform
+* SIEM Platform
 
 ### Repository Structure
 
-architecture → SOC lab architecture diagrams
+* architecture → SOC lab architecture diagrams
 
-infrastructure → AWS environment configuration
+* infrastructure → AWS environment configuration
 
-host-configuration → Windows logging and monitoring setup
+* host-configuration → Windows logging and monitoring setup
 
-siem → SIEM installation and configuration
+* siem → SIEM installation and configuration
 
-attack-simulations → simulated attacker activity
+* attack-simulations → simulated attacker activity
 
-screenshots → lab screenshots
+* screenshots → lab screenshots
