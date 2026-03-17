@@ -18,7 +18,7 @@
 
 • AWS EC2 – Cloud infrastructure hosting the lab environment
 
-Current Progress
+### Current Progress
 Completed
 
 • AWS EC2 instances deployed
@@ -31,7 +31,7 @@ Completed
 
 • SIEM dashboard configured for log visibility
 
-In Progress
+### In Progress
 
 • Attack simulation experiments
 
@@ -53,7 +53,7 @@ Tools Used
 
 • SIEM Platform
 
-Repository Structure
+### Repository Structure
 
 architecture → SOC lab architecture diagrams
 
