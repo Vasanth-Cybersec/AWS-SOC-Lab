@@ -4,8 +4,18 @@ This document describes the architecture of the cloud-based Security Operations 
 
 The lab is designed to simulate attacker activity and analyze system logs using centralized monitoring tools. The environment consists of multiple virtual machines hosted in AWS that generate and collect security telemetry.
 
-![SOC Lab Architecture Diagram](soc-lab-diagram.png)
+```mermaid
+flowchart LR
 
+Attacker["Ubuntu Attacker\n(Attack Simulation)"]
+Windows["Windows Server\n(Sysmon + Event Logs)"]
+Forwarder["Log Forwarding"]
+SIEM["SIEM Platform\n(Splunk Dashboard)"]
+
+Attacker -->|Login Attempts / Scans| Windows
+Windows -->|Security Logs| Forwarder
+Forwarder -->|Log Ingestion| SIEM
+```
 ---
 
 # Architecture Overview
