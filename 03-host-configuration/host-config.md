@@ -47,45 +47,7 @@ These settings ensure comprehensive visibility into user activity and system cha
 
 ---
 
-## 3. Sysmon Installation and Logging
-
-Sysmon was installed to enhance endpoint visibility beyond default Windows logging.
-
-![Sysmon Operational Log](images/sysmon-operational-log.png)
-
-Sysmon provides:
-- Process creation with command-line arguments
-- Network connections
-- File creation and modification tracking
-
-This significantly improves detection capabilities within the SOC.
-
----
-
-## 4. Splunk Universal Forwarder Configuration
-
-The Splunk Universal Forwarder was installed on the Windows Server to send logs to the Splunk SIEM.
-
-### Forwarder Service Running
-
-![Splunk Forwarder Service](images/splunk-forwarder-service.png)
-
-The service is configured to:
-- Start automatically
-- Forward logs to the Splunk server
-- Ensure continuous log ingestion
-
----
-
-### Splunk Receiving Port Configuration
-
-![Splunk Receiving Port](images/splunk-receiving-port.png)
-
-Port **9997** is configured on the Splunk server to receive incoming logs from forwarders.
-
----
-
-## 5. Software Installation
+## 3. Software Installation
 
 The following tools were downloaded and installed on the system:
 
@@ -97,6 +59,35 @@ The following tools were downloaded and installed on the system:
 These tools form the core of endpoint monitoring and log forwarding.
 
 ---
+
+## 3. Sysmon 
+
+Sysmon was installed to enhance endpoint visibility beyond default Windows logging.
+
+![Sysmon Operational Log](images/sysmonoperational.png)
+
+Sysmon provides:
+- Process creation with command-line arguments
+- Network connections
+- File creation and modification tracking
+
+This significantly improves detection capabilities within the SOC.
+
+---
+
+## 4. Splunk Universal Forwarder 
+
+The Splunk Universal Forwarder was installed on the Windows Server to send logs to the Splunk SIEM.
+
+![Splunk Forwarder Service](images/splunkservice_running.png)
+
+The service is configured to:
+- Start automatically
+- Forward logs to the Splunk server
+- Ensure continuous log ingestion
+
+---
+
 
 ## Summary
 
