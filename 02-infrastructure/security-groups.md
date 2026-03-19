@@ -4,6 +4,10 @@ This section documents the network access controls configured for the SOC lab en
 
 ---
 
+## AWS Instances
+
+![AWS Instances](images/AWSinstances.png)
+
 ## Splunk SIEM Security Group
 
 ![Splunk Security Group](images/splunk_sec_group.png)
