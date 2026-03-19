@@ -6,7 +6,7 @@ This section documents the network access controls configured for the SOC lab en
 
 ## Splunk SIEM Security Group
 
-![Splunk Security Group](images/splunk-security-group.png)
+![Splunk Security Group](images/splunk_sec_group.png)
 
 This security group allows ingestion of logs and access to the Splunk interface.
 
@@ -18,7 +18,7 @@ This security group allows ingestion of logs and access to the Splunk interface.
 
 ## Windows Server Security Group
 
-![Windows Security Group](images/windows-security-group.png)
+![Windows Security Group](images/winserver_sec_group.png)
 
 The Windows server acts as the monitored endpoint generating security logs.
 
@@ -29,7 +29,7 @@ The Windows server acts as the monitored endpoint generating security logs.
 
 ## Ubuntu Attacker Security Group
 
-![Ubuntu Security Group](images/ubuntu-security-group.png)
+![Ubuntu Security Group](images/ubuntu_attacker_sec_group.png)
 
 The Ubuntu machine is used to simulate attacker activity.
 
