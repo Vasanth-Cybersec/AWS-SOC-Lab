@@ -8,9 +8,11 @@ This section documents the network access controls configured for the SOC lab en
 
 ![AWS Instances](images/AWSinstances.png)
 
--Ubuntu attacker box
--Ubuntu hosting the Splunk server
--Windows Server for obtaining logs
+- Ubuntu attacker box
+- Ubuntu hosting the Splunk server
+- Windows Server for obtaining logs
+
+---
 
 ## Splunk SIEM Security Group
 
