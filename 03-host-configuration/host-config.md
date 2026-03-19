@@ -14,7 +14,7 @@ Windows Security Event Logs were enabled and configured to capture critical even
 
 ### Successful Logon Event (4624)
 
-![Successful Logon Event](images/eventid-4624-successful-logon.png)
+![Successful Logon Event](images/eventviewer1.png)
 
 This event confirms that user authentication activity is being logged correctly.
 
@@ -22,7 +22,7 @@ This event confirms that user authentication activity is being logged correctly.
 
 ### Process Creation Event (4688)
 
-![Process Creation Event](images/eventid-4688-process-creation.png)
+![Process Creation Event](images/eventviewer2.png)
 
 Process creation logging allows visibility into executed binaries, which is critical for detecting malicious activity.
 
