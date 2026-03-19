@@ -32,7 +32,7 @@ Process creation logging allows visibility into executed binaries, which is crit
 
 Advanced audit policies were configured to ensure detailed logging across multiple categories.
 
-![Audit Policy Configuration](images/audit-policy-config.png)
+![Audit Policy Configuration](images/policyconfig.png)
 
 ### Key Enabled Categories:
 - Account Logon
