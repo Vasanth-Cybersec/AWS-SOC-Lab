@@ -89,7 +89,7 @@ Port **9997** is configured on the Splunk server to receive incoming logs from f
 
 The following tools were downloaded and installed on the system:
 
-![Downloads Folder](images/windows-downloads-sysmon-splunk.png)
+![Downloads Folder](images/sysmon_splunk_install.png)
 
 - Sysmon (Microsoft Sysinternals)
 - Splunk Universal Forwarder
